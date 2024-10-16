@@ -16,4 +16,8 @@ public class Subject{
             o.update(this.value);
         }
     }
+
+    public void ChangeSubjectValue(string value){
+        this.value = value;
+    }
 }
